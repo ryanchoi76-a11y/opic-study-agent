@@ -1,0 +1,6 @@
+{
+  "version": "2.2.1",
+  "app_url": "https://raw.githubusercontent.com/ryanchoi76-a11y/opic-study-agent/main/app.py",
+  "sha256": "2c82a40f088d2b93e4eb40e55a6a98012ccbee648112af78e81b48ff2e8c59e9",
+  "notes": "메인 화면과 온라인 자동 업데이트 기능 추가"
+}
