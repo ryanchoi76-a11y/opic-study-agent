@@ -1,0 +1,694 @@
+{
+  "scripts": [
+    {
+      "id": "remote-38ae1eefb707b37cea5f",
+      "topic": "Technology",
+      "type": "묘사",
+      "question": "Tell me about a promising industry in your country. What makes it so successful and how do you see its future?",
+      "translation": "당신의 나라에서 유망한 산업 하나를 소개해 주세요. 무엇이 그 산업을 성공적으로 만들었고, 앞으로의 전망을 어떻게 보나요?",
+      "main_point": "한국의 대표 유망 산업은 반도체 → 삼성·SK하이닉스가 메모리 시장을 선도 → AI 확대로 반도체 중요성 증가 → 앞으로도 국가의 미래 산업으로 성장",
+      "key_expressions": [
+        {
+          "expression": "the backbone of our economy",
+          "meaning": "우리 경제의 중추",
+          "tip": "산업의 중요성을 강하게 표현할 때 유용"
+        },
+        {
+          "expression": "cutting-edge technology",
+          "meaning": "최첨단 기술",
+          "tip": "기술·산업 주제에서 활용도가 높은 표현"
+        },
+        {
+          "expression": "the \"BRAINS\" of all modern devices",
+          "meaning": "모든 현대 기기의 ‘두뇌’",
+          "tip": "반도체의 역할을 비유적으로 설명하는 기억하기 좋은 표현"
+        },
+        {
+          "expression": "It’s not just a trend; it is the FUTURE of our country!",
+          "meaning": "단순한 유행이 아니라 우리나라의 미래다",
+          "tip": "전망을 강하게 마무리하는 문장"
+        }
+      ],
+      "script": "To be honest, Eva... If you ask me about the most promising industry in Korea, it is definitely THE SEMICONDUCTOR INDUSTRY. It is basically the backbone of our economy.\n\nYou know, companies like Samsung and SK Hynix are based in Korea. They are global giants and they literally lead the world's memory chip market. As a Korean, I feel SO PROUD of their success and their cutting-edge technology.\n\nActually, I am also an active investor in semiconductor stocks. So, I closely follow the news every single day. These days, with the rise of AI technology, semiconductors are becoming more important than ever. They are like the \"BRAINS\" of all modern devices.\n\nSo overall, Eva... I believe this industry will continue to grow rapidly. It’s not just a trend; it is the FUTURE of our country!",
+      "updated_at": "2026-08-29T10:23:26"
+    },
+    {
+      "id": "remote-171ac4d4de4ead271a04",
+      "topic": "Music",
+      "type": "묘사",
+      "question": "Who is your favorite singer or musical artist? What do you like about their music and performance?",
+      "translation": "가장 좋아하는 가수나 음악가는 누구인가요? 그 사람의 음악과 공연에서 어떤 점을 좋아하나요?",
+      "main_point": "가장 좋아하는 가수는 에일리 → 넓은 음역과 강력한 목소리 → 라이브와 퍼포먼스가 뛰어남 → 추천곡 ‘I Will Show You’ 소개",
+      "key_expressions": [
+        {
+          "expression": "Without a doubt",
+          "meaning": "의심할 여지 없이",
+          "tip": "좋아하는 대상을 자신 있게 소개할 때 좋은 시작 표현"
+        },
+        {
+          "expression": "powerhouse vocalist",
+          "meaning": "엄청난 가창력을 가진 보컬리스트",
+          "tip": "가창력을 강하게 칭찬하는 표현"
+        },
+        {
+          "expression": "DOMINATES the crowd",
+          "meaning": "관객을 완전히 압도한다",
+          "tip": "무대 장악력을 생생하게 표현"
+        },
+        {
+          "expression": "FLAWLESS",
+          "meaning": "흠잡을 데 없는",
+          "tip": "라이브 실력이나 퍼포먼스를 짧고 강하게 평가"
+        },
+        {
+          "expression": "give you goosebumps",
+          "meaning": "소름 돋게 하다",
+          "tip": "음악의 감동을 자연스럽게 표현"
+        }
+      ],
+      "script": "Without a doubt, Eva... My absolute favorite singer is AILEE. She is often called the \"Korean Beyoncé,\" and she is an absolute powerhouse vocalist.\n\nWhat I love most about her is her incredible vocal range. She can hit crazy high notes so effortlessly, and her voice is extremely rich and powerful. Every time she performs live on stage, she completely DOMINATES the crowd.\n\nAlso, her music has a very unique style. She blends emotional ballads with powerful pop songs. Even when she is doing intense choreography, her live vocals are FLAWLESS. It is just mind-blowing to watch.\n\nSo yeah, Eva... To me, she is not just a singer; she is a true diva. If you haven't heard her music yet, you should definitely check out her song \"I Will Show You.\" It will literally give you goosebumps!",
+      "updated_at": "2026-08-29T10:23:26"
+    },
+    {
+      "id": "remote-bd08aeb3fc79a9d74c9a",
+      "topic": "Housing",
+      "type": "묘사",
+      "question": "What is your favorite room in your house? Please describe it in detail and tell me what you usually do there.",
+      "translation": "집에서 가장 좋아하는 방은 어디인가요? 자세히 묘사하고 그곳에서 보통 무엇을 하는지 말해 주세요.",
+      "main_point": "가장 좋아하는 곳은 침실 → 컴퓨터 게임으로 스트레스 해소 → 침대에서 유튜브·웹소설 즐김 → 편하게 쉬며 에너지를 충전하는 공간",
+      "key_expressions": [
+        {
+          "expression": "relax and UNWIND",
+          "meaning": "편하게 쉬며 긴장을 풀다",
+          "tip": "휴식 공간을 묘사할 때 자연스러운 표현"
+        },
+        {
+          "expression": "DECOMPRESS",
+          "meaning": "스트레스를 풀다",
+          "tip": "퇴근 후 활동을 설명할 때 기억하기 좋은 표현"
+        },
+        {
+          "expression": "GUILTY PLEASURE",
+          "meaning": "남몰래 즐기는 소소한 낙",
+          "tip": "개인적인 취미를 재미있게 표현"
+        },
+        {
+          "expression": "RECHARGE MY BATTERIES",
+          "meaning": "에너지를 재충전하다",
+          "tip": "휴식·집·휴가 주제에서 활용도가 높음"
+        }
+      ],
+      "script": "To be honest, Eva... I absolutely LOVE my bedroom the most. It is my favorite place because it is the perfect space for me to relax and UNWIND.\n\nFirst of all, I have a nice computer in my room. So, after a long and stressful day at work, I often play online games with my friends. It really helps me DECOMPRESS and forget about work.\n\nAnd also, my bed is the best! I love to just lie down on my bed and look at my smartphone. Usually, I watch funny videos on YouTube or read interesting web novels. To be honest, doing this after work is my favorite GUILTY PLEASURE. It is so relaxing.\n\nSo overall, Eva... this is what my favorite room looks like. My bedroom is like a HEAVEN to me because I can fully RECHARGE MY BATTERIES there. I just love being in my room!",
+      "updated_at": "2026-08-29T10:23:26"
+    },
+    {
+      "id": "remote-f586a8df6a0f74685404",
+      "topic": "Housing",
+      "type": "비교",
+      "question": "How is the home you lived in as a child different from the one you live in now? What are the differences and similarities?",
+      "translation": "어릴 때 살던 집과 지금 사는 집은 어떻게 다른가요? 차이점과 공통점을 말해 주세요.",
+      "main_point": "어릴 적 집은 평범한 브랜드 가구 중심 → 현재 집은 아내가 만든 DIY 가구 중심 → 개성과 따뜻함이 커짐 → 지금 집을 더 좋아함",
+      "key_expressions": [
+        {
+          "expression": "HAD NO PERSONALITY",
+          "meaning": "개성이 없었다",
+          "tip": "과거의 평범함을 강조하는 비교 표현"
+        },
+        {
+          "expression": "incredibly HANDY",
+          "meaning": "손재주가 아주 좋다",
+          "tip": "DIY 능력을 자연스럽게 칭찬"
+        },
+        {
+          "expression": "STANDS OUT",
+          "meaning": "눈에 띄다",
+          "tip": "현재 집의 차별점을 강조"
+        },
+        {
+          "expression": "ONE OF A KIND",
+          "meaning": "세상에 하나뿐인, 독특한",
+          "tip": "비교 답변의 결론을 강하게 만드는 표현"
+        }
+      ],
+      "script": "Eva, the biggest difference between my childhood home and my house now is definitely THE FURNITURE.\n\nWhen I was a kid, my house was so simple. My mother bought normal furniture from big brands. Everything was just very PLAIN and HAD NO PERSONALITY. It looked exactly the same as other houses.\n\nBut now, my god! My house is full of DIY FURNITURE. Actually, my wife makes furniture as a hobby. She is incredibly HANDY, so she always makes tables and chairs for us in her free time. Thanks to her, our furniture STANDS OUT so much and makes our house completely ONE OF A KIND.\n\nSo yeah, Eva... Because of my wife's sweat and effort, our house feels so warm and unique. I love it much better than my childhood home!",
+      "updated_at": "2026-08-29T10:23:26"
+    },
+    {
+      "id": "remote-113daf9c29a6149ac15e",
+      "topic": "Housing",
+      "type": "묘사",
+      "question": "Describe your living room. What kind of furniture or appliances do you have there, and which one is your favorite?",
+      "translation": "거실을 묘사해 주세요. 어떤 가구나 가전제품이 있고, 그중 가장 좋아하는 것은 무엇인가요?",
+      "main_point": "거실에서 가장 좋아하는 것은 안마의자 → 퇴근 후 바로 사용 → 피로를 풀어주는 작은 오아시스 같은 존재 → 하나만 고른다면 안마의자",
+      "key_expressions": [
+        {
+          "expression": "PRIVATE MASSEUSE",
+          "meaning": "개인 전담 마사지사",
+          "tip": "안마의자를 재미있게 비유하는 표현"
+        },
+        {
+          "expression": "THROW MYSELF into the chair",
+          "meaning": "의자에 몸을 던지듯 앉다",
+          "tip": "퇴근 후 지친 모습을 생생하게 표현"
+        },
+        {
+          "expression": "MELT AWAY",
+          "meaning": "사르르 사라지다",
+          "tip": "피로나 스트레스가 풀리는 느낌을 자연스럽게 표현"
+        },
+        {
+          "expression": "small OASIS",
+          "meaning": "작은 오아시스",
+          "tip": "바쁜 일상 속 휴식처를 비유적으로 표현"
+        },
+        {
+          "expression": "RECHARGES MY BATTERIES",
+          "meaning": "에너지를 충전해 준다",
+          "tip": "마무리용으로 활용도 높은 표현"
+        }
+      ],
+      "script": "To be honest, Eva... My absolute favorite thing in my living room is my massage chair. It’s not just a machine, it’s like my PRIVATE MASSEUSE waiting for me.\n\nEvery day, after a stressful day at work, my body is completely broken. So, as soon as I get home, I THROW MYSELF into the chair. When I press start, it feels like a warm and big HUG.\n\nOf course, there are other appliances like a big TV or an air conditioner, but they are just machines. ONLY this massage chair makes my fatigue MELT AWAY. It is like a small OASIS in my busy life.\n\nSo overall, Eva... If I can only keep ONE appliance in my living room, it will definitely be my massage chair. It completely RECHARGES MY BATTERIES every night!",
+      "updated_at": "2026-08-29T10:23:26"
+    },
+    {
+      "id": "remote-d3c7f63b5e448885e602",
+      "topic": "Recycling",
+      "type": "롤플레잉",
+      "question": "Suppose that you have moved into a new building. Call the manager of the building and ask three or four questions about recycling.",
+      "translation": "새 건물로 이사했다고 가정해 보세요. 건물 관리자에게 전화해서 재활용에 대해 세네 가지 질문을 하세요.",
+      "main_point": "새 입주자라고 소개 → 재활용 장소 질문 → 배출 가능 시간 질문 → 종량제 봉투 구매 여부 질문 → 큰 박스 처리 장소 질문",
+      "key_expressions": [
+        {
+          "expression": "I have a few quick questions",
+          "meaning": "간단히 몇 가지 질문이 있어요",
+          "tip": "롤플레이 전화 시작에 자연스러운 표현"
+        },
+        {
+          "expression": "Do you have a minute to talk?",
+          "meaning": "잠깐 이야기할 시간 있으세요?",
+          "tip": "상대에게 정중하게 시간을 묻는 표현"
+        },
+        {
+          "expression": "First of all",
+          "meaning": "우선",
+          "tip": "여러 질문을 순서 있게 시작"
+        },
+        {
+          "expression": "By the way",
+          "meaning": "그런데, 그건 그렇고",
+          "tip": "다음 질문으로 자연스럽게 전환"
+        },
+        {
+          "expression": "that answers all my questions",
+          "meaning": "궁금한 점이 모두 해결됐어요",
+          "tip": "롤플레이 통화를 깔끔하게 마무리"
+        }
+      ],
+      "script": "Hello, manager? Hi, this is the new tenant in unit 502. I just moved in yesterday, and I have a few quick questions about recycling. Do you have a minute to talk?\n\n(상대 답변 듣고) Oh, great! Thanks.\n\nFirst of all, where is the designated recycling area located? Is it in the basement, or outside near the main entrance?\n\n(듣고) Ah, near the parking lot outside? Got it.\n\nAnd also, are there specific days or times for throwing out the recyclables? Or can I just drop them off anytime?\n\n(듣고) Oh, I can do it anytime 24/7? Wow, that's super convenient!\n\nBy the way, do I need to use official government bags for general waste, or does the building provide them?\n\n(듣고) Ah, I have to buy them at the convenience store. Okay, no problem.\n\nLastly, what should I do with large cardboards from my moving boxes? Is there a separate place for those?\n\n(듣고) Oh, right next to the recycling bins? Perfect!\n\nAlright, that answers all my questions. Thank you so much for your help, manager! Have a great day!",
+      "updated_at": "2026-08-29T10:23:26"
+    },
+    {
+      "id": "remote-0dbc7539116682faf458",
+      "topic": "Recycling",
+      "type": "롤플레잉",
+      "question": "A new resident from abroad has just moved in. However, he is throwing away garbage in the recycling bin. Other residents are very upset about that. Go to the new resident, explain the situation, and tell him about the recycling policy.",
+      "translation": "외국에서 온 새 입주자가 재활용통에 일반 쓰레기를 버리고 있습니다. 그 사람에게 상황과 재활용 규정을 설명하세요.",
+      "main_point": "새 이웃에게 인사 → 잘못된 쓰레기 배출을 부드럽게 알림 → 한국의 분리배출 규칙 설명 → 필요하면 도와주겠다고 제안",
+      "key_expressions": [
+        {
+          "expression": "give you a quick heads-up",
+          "meaning": "미리 간단히 알려드리다",
+          "tip": "불편한 이야기를 부드럽게 꺼낼 때 유용"
+        },
+        {
+          "expression": "I totally get it.",
+          "meaning": "충분히 이해해요",
+          "tip": "상대의 실수를 배려하는 반응"
+        },
+        {
+          "expression": "can be a bit tricky",
+          "meaning": "조금 까다로울 수 있다",
+          "tip": "규칙이 복잡함을 부드럽게 설명"
+        },
+        {
+          "expression": "So basically",
+          "meaning": "그러니까 기본적으로",
+          "tip": "규칙을 간단히 정리해서 설명할 때 유용"
+        },
+        {
+          "expression": "just knock on my door anytime",
+          "meaning": "언제든 제 문을 두드리세요",
+          "tip": "도움 제안으로 따뜻하게 마무리"
+        }
+      ],
+      "script": "Hi there! Excuse me... Are you the new resident in unit 503? Hi! I live next door in unit 502. Welcome to our building!\n\n(듣고) Oh, nice to meet you, too!\n\nActually, I came over to give you a quick heads-up about something. I noticed earlier that you put general garbage into the recycling bin. To be honest, a few residents are a bit upset about it.\n\n(듣고) Oh, no, no! Please don't worry! I totally get it. You just moved in from abroad, so you probably didn't know our building's policy, right?\n\n(듣고) Yeah, I figured! Recycling in Korea can be a bit tricky.\n\nSo basically, we have to separate everything here. Food waste and general trash need to go into official plastic bags. You can easily buy them at the convenience store nearby. Only clean plastic, cans, and paper can go into the recycling bins.\n\n(듣고) Ah, I see! You have those official bags already? That's great!\n\nSo yeah... If you ever need help sorting your trash, just knock on my door anytime. I'm happy to help!\n\n(듣고) No problem at all! Have a great day!",
+      "updated_at": "2026-08-29T10:23:26"
+    },
+    {
+      "id": "remote-4089e62080977ffddc51",
+      "topic": "Recycling",
+      "type": "롤플레잉",
+      "question": "You often host large parties and take out most of the recycling and garbage the next day. However, other residents in your building are not happy about it, and one of them has come to complain to you. Explain the situation and offer some suggestions to resolve the problem.",
+      "translation": "파티 후 많은 쓰레기와 재활용품을 한꺼번에 버려 다른 주민이 불만을 제기했습니다. 상황을 설명하고 해결 방안을 제안하세요.",
+      "main_point": "주민의 불만 확인 및 사과 → 집들이 때문에 쓰레기가 많았다고 설명 → 바로 재활용 구역 정리 제안 → 앞으로 나눠 버리거나 외부 폐기장 이용 약속",
+      "key_expressions": [
+        {
+          "expression": "I am SO SO SORRY",
+          "meaning": "정말 정말 죄송해요",
+          "tip": "롤플레이에서 강한 사과를 표현"
+        },
+        {
+          "expression": "I totally understand why you are frustrated.",
+          "meaning": "왜 화가 나셨는지 충분히 이해해요",
+          "tip": "상대 감정을 인정하는 표현"
+        },
+        {
+          "expression": "to fix this issue",
+          "meaning": "이 문제를 해결하기 위해",
+          "tip": "해결책 제안으로 전환"
+        },
+        {
+          "expression": "That's a relief!",
+          "meaning": "정말 다행이네요",
+          "tip": "상대가 해결책을 받아들였을 때 자연스러운 반응"
+        },
+        {
+          "expression": "I promise it won't happen again.",
+          "meaning": "다시는 이런 일이 없도록 할게요",
+          "tip": "민원 상황을 확실하게 마무리"
+        }
+      ],
+      "script": "Oh, hi there! Are you the resident from unit 401? Wait, is something wrong? You look a bit upset.\n\n(듣고) Oh... I am SO SO SORRY about that! I had no idea it was causing such a big problem for everyone.\n\nTo be honest, I hosted a small housewarming party last night, and we generated way more garbage and recycling than I expected. Since I didn't want to leave trash in my room, I threw it all out this morning at once. I am really sorry that it blocked the hallway and filled up the bins.\n\n(듣고) Yeah, I totally understand why you are frustrated.\n\nSo, to fix this issue, I have a couple of suggestions.\n\nFirst of all, I will go downstairs right now and clean up the recycling area. I'll stack the cardboards neatly and clear the way.\n\nAnd second, from now on, when I have a party, I will take out the garbage in smaller batches throughout the day, or I will take it straight to the main waste center outside the building.\n\n(듣고) Oh, that sounds good to you? That's a relief!\n\nAgain, I am really sorry for the inconvenience. I promise it won't happen again. Have a great day!",
+      "updated_at": "2026-08-29T10:23:26"
+    },
+    {
+      "id": "remote-3e6865253ccf36207c14",
+      "topic": "Recycling",
+      "type": "묘사",
+      "question": "I'd like to know about how recycling is practiced in your country. What do people specifically do? Tell me how things are recycled.",
+      "translation": "당신의 나라에서는 재활용을 어떻게 하나요? 사람들이 구체적으로 무엇을 하는지 설명해 주세요.",
+      "main_point": "한국은 엄격하게 분리수거 → 플라스틱·종이·음식물 등을 세분화하고 병을 씻어 라벨 제거 → 번거롭지만 환경을 위해 필요 → 제대로 하면 뿌듯함",
+      "key_expressions": [
+        {
+          "expression": "separate almost EVERYTHING",
+          "meaning": "거의 모든 것을 분리하다",
+          "tip": "한국의 엄격한 분리수거를 강조"
+        },
+        {
+          "expression": "To be frank",
+          "meaning": "솔직히 말하면",
+          "tip": "단점이나 어려움을 자연스럽게 제시"
+        },
+        {
+          "expression": "cut down on waste",
+          "meaning": "쓰레기를 줄이다",
+          "tip": "환경 주제에서 자주 활용되는 표현"
+        },
+        {
+          "expression": "a strong sense of accomplishment",
+          "meaning": "강한 성취감",
+          "tip": "개인적인 느낌을 풍부하게 표현"
+        },
+        {
+          "expression": "doing my part",
+          "meaning": "내 몫을 다하다",
+          "tip": "환경 보호 참여를 자연스럽게 표현"
+        }
+      ],
+      "script": "To be honest, Eva... Korea has a very strict recycling system nationwide. We basically separate almost EVERYTHING, like plastic, paper, and food waste. For plastic bottles, people wash them out and peel off the vinyl labels before throwing them away.\n\nTo be frank, following all these strict rules can be pretty difficult and complicated. It takes a lot of time and effort to sort every single item properly.\n\nHowever, in my opinion, I think it is definitely the right thing to do for the environment. Strict rules are necessary to cut down on waste and save our planet.\n\nSo personally, every time I finish sorting my trash properly, I feel a strong sense of accomplishment. Even though it’s not easy, I feel very PROUD that I am doing my part to protect the earth!",
+      "updated_at": "2026-08-29T10:23:26"
+    },
+    {
+      "id": "remote-ccebc66cee0a386cefe5",
+      "topic": "Recycling",
+      "type": "비교",
+      "question": "[Script]",
+      "translation": "어릴 때 재활용은 어땠나요? 재활용품을 가져가던 장소와 그곳에서 무엇을 했는지 자세히 설명해 주세요.",
+      "main_point": "어릴 때는 지금보다 규칙이 덜 엄격 → 재활용품을 한꺼번에 큰 통에 넣음 → 아파트 입구 근처에서 주말마다 부모님을 도와 배출 → 지금이 환경에는 더 좋음",
+      "key_expressions": [
+        {
+          "expression": "NOT AS STRICT as it is now",
+          "meaning": "지금만큼 엄격하지 않았다",
+          "tip": "과거와 현재 비교에 핵심적인 표현"
+        },
+        {
+          "expression": "Back then",
+          "meaning": "그 당시에는",
+          "tip": "과거 경험을 자연스럽게 시작"
+        },
+        {
+          "expression": "MIXED TOGETHER",
+          "meaning": "한데 섞여 있었다",
+          "tip": "과거 분리수거 방식의 차이를 강조"
+        },
+        {
+          "expression": "So overall",
+          "meaning": "전반적으로",
+          "tip": "비교 답변을 정리하는 마무리 표현"
+        }
+      ],
+      "script": "We didn't separate trash so carefully like today. Most recyclables—like plastic, paper, and cans—were just MIXED TOGETHER in big bins. We didn't even have to wash the bottles or take off the labels.\n\nAs for the recycling spot, there was a small place near my apartment entrance. It just had a few big plastic bins and nets on the ground. Every weekend, my job was to help my parents carry heavy bags down there.\n\nSo overall, Eva... recycling back then was much easier, but today’s system is much better for the earth!\n\n## Question 3. [Memorable Episode] 분리수거 중 겪은 에피소드\n\nQ. Problems sometimes occur while recycling. Tell me about something memorable related to recycling.",
+      "updated_at": "2026-08-29T10:23:26"
+    },
+    {
+      "id": "remote-b99e5641a98e2e42fc47",
+      "topic": "Recycling",
+      "type": "과거 경험",
+      "question": "I was outside sorting my recyclables like plastics and paper, listening to music with my earbuds on. As I was putting things into different bins, one of my earbuds suddenly slipped right out of my ear and fell inside!",
+      "translation": "재활용을 하다가 문제가 생긴 적이 있나요? 재활용과 관련해 기억에 남는 일을 말해 주세요.",
+      "main_point": "분리수거 중 무선 이어버드가 통 안으로 떨어짐 → 방에 돌아간 뒤 없어진 걸 깨닫고 당황 → 급히 내려가 통을 뒤져 찾음 → 이후 분리수거 전 이어버드를 뺌",
+      "key_expressions": [
+        {
+          "expression": "slipped right out of my ear",
+          "meaning": "귀에서 바로 미끄러져 빠졌다",
+          "tip": "사건 발생 장면을 생생하게 표현"
+        },
+        {
+          "expression": "I totally PANICKED!",
+          "meaning": "완전히 당황했다",
+          "tip": "문제 상황의 감정을 강하게 표현"
+        },
+        {
+          "expression": "right away",
+          "meaning": "즉시",
+          "tip": "문제 해결 행동을 빠르게 연결"
+        },
+        {
+          "expression": "I was so relieved.",
+          "meaning": "정말 안도했다",
+          "tip": "문제 해결 후 감정을 자연스럽게 표현"
+        }
+      ],
+      "script": "Luckily, I searched through the bin and found it at the bottom! My hands got super dirty, but I was so relieved.\n\nSo overall, Eva... it was a very stressful day! Now, I always take off my earbuds before sorting my trash.",
+      "updated_at": "2026-08-29T10:23:26"
+    },
+    {
+      "id": "remote-aec3267313bfc1cb500c",
+      "topic": "Transportation",
+      "type": "묘사",
+      "question": "Discuss how people in your country get around every day. What forms of transportation do they use? Do they drive their own cars or use public transportation?",
+      "translation": "당신의 나라 사람들은 매일 어떻게 이동하나요? 자가용을 운전하나요, 대중교통을 이용하나요?",
+      "main_point": "한국은 지역에 따라 이동 방식이 다름 → 서울은 지하철·버스 중심 → 구미 같은 중소도시는 대중교통이 덜 편리 → 자가용 의존도가 높음",
+      "key_expressions": [
+        {
+          "expression": "it really depends on where you live",
+          "meaning": "사는 곳에 따라 정말 다르다",
+          "tip": "지역 차이를 설명하는 좋은 시작 문장"
+        },
+        {
+          "expression": "extremely well-developed",
+          "meaning": "매우 잘 발달된",
+          "tip": "대중교통 시스템을 묘사할 때 유용"
+        },
+        {
+          "expression": "get around without a car",
+          "meaning": "차 없이 이동하다",
+          "tip": "교통 편의성을 설명하는 표현"
+        },
+        {
+          "expression": "heavily rely on",
+          "meaning": "크게 의존하다",
+          "tip": "도시별 이동 수단 차이를 비교할 때 유용"
+        }
+      ],
+      "script": "To be honest, Eva... it really depends on where you live in Korea.\n\nIn big cities like Seoul, public transportation is extremely well-developed. Most people use the subway or buses for their daily commute because it is super fast and convenient.\n\nHowever, in smaller cities like Gumi where I live, the situation is quite different. Public transportation is not as convenient, and we don't have a subway system. So, bus intervals can be quite long, which makes it a bit frustrating to get around without a car.\n\nBecause of this, most people in my city prefer driving their own cars for daily commuting and running errands.\n\nSo overall, Eva... while people in major cities heavily rely on subways and buses, residents in smaller cities like Gumi mostly depend on their personal cars!",
+      "updated_at": "2026-08-29T10:23:26"
+    },
+    {
+      "id": "remote-892c7460a59968398080",
+      "topic": "Transportation",
+      "type": "과거 경험",
+      "question": "Give a detailed description of the last time you used a form of transportation that was different than usual. Was this the first time you used this form of transportation? If so, did you enjoy the change? How long ago was this? Where were you going, and what did you do once you got there?",
+      "translation": "평소와 다른 교통수단을 최근 이용했던 경험을 자세히 말해 주세요. 어디에 갔고 무엇을 했나요?",
+      "main_point": "평소에는 자동차 여행 → 몇 달 전 아들과 KTX로 서울 주말여행 → 교통·주차 걱정 없이 편하게 이동 → 관광·음식·기념품 쇼핑 → 다시 이용하고 싶은 좋은 추억",
+      "key_expressions": [
+        {
+          "expression": "a fresh experience",
+          "meaning": "새로운 느낌의 경험",
+          "tip": "평소와 다른 경험을 표현"
+        },
+        {
+          "expression": "stress about traffic or parking",
+          "meaning": "교통체증이나 주차를 걱정하다",
+          "tip": "자가용과 기차의 차이를 자연스럽게 설명"
+        },
+        {
+          "expression": "sit back, chat, and enjoy the scenery",
+          "meaning": "편히 앉아 이야기하고 풍경을 즐기다",
+          "tip": "기차 여행의 장점을 생생하게 표현"
+        },
+        {
+          "expression": "I'd definitely do it again.",
+          "meaning": "꼭 다시 하고 싶다",
+          "tip": "긍정적인 경험을 자연스럽게 마무리"
+        }
+      ],
+      "script": "Oh, I actually have a great memory about this, Eva! A few months ago, I took the KTX bullet train with my son to visit Seoul for a weekend trip.\n\nUsually, I always drive my own car when traveling, so taking the bullet train with my son was a very fresh experience. It wasn't my first time taking the KTX, but I really enjoyed the change because I didn't have to stress about traffic or parking! We could just sit back, chat, and enjoy the scenery together.\n\nWhen we arrived in Seoul, we visited some famous places, had delicious food, and bought some cool souvenirs that my son really wanted. We had such a wonderful time together.\n\nSo overall, Eva... taking the bullet train was so much faster and more relaxing than driving! It was a super memorable trip with my son, and I’d definitely do it again.",
+      "updated_at": "2026-08-29T10:23:26"
+    },
+    {
+      "id": "remote-6991449e31c9c49eac56",
+      "topic": "Transportation",
+      "type": "과거 경험",
+      "question": "What kinds of difficulties or problems have you faced related to transportation? What exactly was the problem? What did you do to resolve the problem? Tell this story in detail.",
+      "translation": "교통과 관련해 어떤 어려움이나 문제를 겪었나요? 문제와 해결 방법을 자세히 말해 주세요.",
+      "main_point": "협력사 중요 미팅 가는 길 → 사고 때문에 고속도로가 거의 한 시간 정체 → 담당자에게 상황 설명 → 고속도로를 빠져나와 샛길 이용 → 미팅 시간에 맞춰 도착",
+      "key_expressions": [
+        {
+          "expression": "came to a complete standstill",
+          "meaning": "완전히 멈춰 섰다",
+          "tip": "심한 교통 정체를 생생하게 표현"
+        },
+        {
+          "expression": "I totally PANICKED!",
+          "meaning": "완전히 당황했다",
+          "tip": "긴박한 상황의 감정 표현"
+        },
+        {
+          "expression": "To resolve the problem",
+          "meaning": "문제를 해결하기 위해",
+          "tip": "해결 과정으로 전환하는 표현"
+        },
+        {
+          "expression": "just in time",
+          "meaning": "딱 맞춰, 간신히 제시간에",
+          "tip": "성공적인 해결을 강조"
+        },
+        {
+          "expression": "nerve-wracking",
+          "meaning": "신경이 곤두서는, 긴장되는",
+          "tip": "경험의 전체 느낌을 강하게 표현"
+        }
+      ],
+      "script": "Oh, I have a very stressful story about this, Eva! Last year, I got stuck in a massive traffic jam on the highway on my way to an important meeting at a partner company.\n\nI left my office early, and I was driving on the highway. Suddenly, traffic came to a complete standstill because of a major car accident ahead. I couldn't move at all for almost an hour, and I totally PANICKED!\n\nTo resolve the problem, I quickly took the nearest exit to get off the highway. I called the manager at the partner company to explain the situation, and then I used my navigation app to find a shortcut through local roads.\n\nLuckily, the local roads were completely clear, so I was able to drive much faster. In the end, I arrived at the partner company just in time for the meeting!\n\nSo overall, Eva... it was a super nerve-wracking day! Now, I always check the traffic conditions before taking the highway.",
+      "updated_at": "2026-08-29T10:23:26"
+    },
+    {
+      "id": "remote-0a1f548d1c02ea753b7d",
+      "topic": "Environment",
+      "type": "습관",
+      "question": "What do you usually do to protect the environment in your daily life? Please describe some things you do regularly.",
+      "translation": "일상생활에서 환경을 보호하기 위해 보통 무엇을 하나요? 정기적으로 하는 활동을 설명해 주세요.",
+      "main_point": "매일 작은 환경 보호 실천 → 플라스틱 병을 씻고 라벨 제거 → 포장이 적거나 재활용 소재 제품 구매 → 작은 습관도 도움이 된다고 생각",
+      "key_expressions": [
+        {
+          "expression": "I'm pretty serious about recycling.",
+          "meaning": "저는 재활용을 꽤 철저히 해요",
+          "tip": "습관을 자신 있게 소개"
+        },
+        {
+          "expression": "I mean, it only takes a few seconds, right?",
+          "meaning": "몇 초밖에 안 걸리잖아요, 그렇죠?",
+          "tip": "자연스러운 말하기 느낌을 주는 문장"
+        },
+        {
+          "expression": "small habits can make a difference",
+          "meaning": "작은 습관도 변화를 만들 수 있다",
+          "tip": "환경 보호에 대한 의견을 정리"
+        },
+        {
+          "expression": "every little bit helps",
+          "meaning": "작은 노력 하나하나가 도움이 된다",
+          "tip": "기억하기 쉬운 마무리 표현"
+        },
+        {
+          "expression": "it's better than doing nothing",
+          "meaning": "아무것도 안 하는 것보다는 낫다",
+          "tip": "부담 없이 실천을 강조"
+        }
+      ],
+      "script": "Well, to be honest, Eva... I try to do small things every day to help the environment.\nYou know, nothing too special, but I do my best.\n\nFirst of all, I'm pretty serious about recycling.\nFor example, when I throw away plastic bottles, I always rinse them out with water first and remove the labels.\nI mean, it only takes a few seconds, right?\nSo, I try not to be lazy about it.\n\nAnother thing I do is buy eco-friendly products.\nWhen I go shopping, I try to choose products with less plastic packaging.\nAnd if I have a choice, I usually go for products made from recycled materials.\n\nActually, I didn't really care about these things in the past.\nBut these days, I feel like small habits can make a difference.\nYou know what they say, every little bit helps!\n\nSo, yeah, Eva... recycling and buying eco-friendly products are just small things, but hey, it's better than doing nothing, right?",
+      "updated_at": "2026-08-29T10:23:26"
+    },
+    {
+      "id": "remote-c84ba51022c78371dd96",
+      "topic": "Environment",
+      "type": "과거 경험",
+      "question": "Tell me about a time when you realized an environmental problem was serious. What happened, and how did it affect you?",
+      "translation": "환경 문제가 심각하다고 깨달았던 때를 말해 주세요. 무슨 일이 있었고 어떤 영향을 받았나요?",
+      "main_point": "이번 여름 극심한 더위와 습도·갑작스러운 폭우 경험 → 밤새 에어컨을 켜야 할 정도 → 기후변화를 일상에서 직접 느낌 → 지구 보호의 시급성을 깨달음",
+      "key_expressions": [
+        {
+          "expression": "out of nowhere",
+          "meaning": "갑자기, 느닷없이",
+          "tip": "예상치 못한 폭우를 생생하게 표현"
+        },
+        {
+          "expression": "no longer just news on TV",
+          "meaning": "더 이상 TV 뉴스 속 이야기만이 아니다",
+          "tip": "환경 문제가 현실이 됐음을 강조"
+        },
+        {
+          "expression": "a huge wake-up call",
+          "meaning": "큰 경각심을 준 계기",
+          "tip": "깨달음을 강하게 표현"
+        },
+        {
+          "expression": "how urgently we need to protect our planet",
+          "meaning": "지구를 얼마나 시급히 보호해야 하는지",
+          "tip": "환경 주제를 강하게 마무리"
+        }
+      ],
+      "script": "To be honest, Eva... this summer has been just terrible because of the extreme heat! I was totally SHOCKED by how hot and humid it was in Korea.\n\nThe temperature was much higher than usual, and it rained heavily out of nowhere, just like a sudden squall. It felt like Korea's weather was turning into a tropical region. It was so hot and sticky during the day, and I had to keep the air conditioner on all night just to sleep.\n\nExperiencing such extreme weather made me realize how serious global warming really is. It was no longer just news on TV. I could feel climate change right in my daily life.\n\nSo overall, Eva... this terrible summer was a huge wake-up call for me. It made me realize how urgently we need to protect our planet.",
+      "updated_at": "2026-08-29T10:23:26"
+    },
+    {
+      "id": "remote-cac140ef1bee05523e3d",
+      "topic": "Environment",
+      "type": "비교",
+      "question": "How has people’s attitude toward the environment changed compared to the past? What are some differences between the past and now?",
+      "translation": "과거와 비교해 환경에 대한 사람들의 태도는 어떻게 변했나요? 과거와 현재의 차이를 말해 주세요.",
+      "main_point": "과거에는 환경 문제에 관심이 적고 일회용품을 많이 사용 → 현재는 텀블러·에코백 사용 증가 → 기업도 플라스틱 감축 노력 → 친환경 습관이 일상화",
+      "key_expressions": [
+        {
+          "expression": "has changed A LOT",
+          "meaning": "아주 많이 변했다",
+          "tip": "비교 답변의 핵심 변화를 강조"
+        },
+        {
+          "expression": "didn't care much about",
+          "meaning": "별로 신경 쓰지 않았다",
+          "tip": "과거의 태도를 쉽게 설명"
+        },
+        {
+          "expression": "nowadays",
+          "meaning": "요즘에는",
+          "tip": "현재와의 비교 전환"
+        },
+        {
+          "expression": "much more conscious about",
+          "meaning": "훨씬 더 의식하고 있다",
+          "tip": "환경 인식 변화를 자연스럽게 표현"
+        }
+      ],
+      "script": "To be honest, Eva... people’s attitude toward the environment has changed A LOT.\n\nIn the past, most people didn't care much about the environment. They used single-use plastics all the time, and recycling was not very strict back then.\n\nHowever, nowadays, people care a lot more. Many people bring their own tumblers to coffee shops, and they use eco-bags at grocery stores. Also, companies are trying hard to reduce plastic waste.\n\nSo overall, Eva... people are much more conscious about protecting the earth now, and eco-friendly habits are a big part of our lives!",
+      "updated_at": "2026-08-29T10:23:26"
+    },
+    {
+      "id": "remote-1f1ebabf61304076c02d",
+      "topic": "Bank",
+      "type": "묘사",
+      "question": "Tell me about the banks in your country. How do the banks look? Where are they located? What are their hours of operation? How often do you go to the bank?",
+      "translation": "당신의 나라 은행은 어떤 모습이고 어디에 있으며 영업시간은 어떤가요? 얼마나 자주 은행에 가나요?",
+      "main_point": "요즘은 오프라인 은행에 거의 가지 않음 → 모바일 뱅킹으로 잔액 확인·송금·공과금·계좌 관리 → 시간과 장소 제약이 없음 → 모바일 뱅킹이 우선 선택",
+      "key_expressions": [
+        {
+          "expression": "don't really go to physical banks very often",
+          "meaning": "오프라인 은행에 자주 가지 않는다",
+          "tip": "현실적인 답변 방향을 바로 제시"
+        },
+        {
+          "expression": "anytime and anywhere",
+          "meaning": "언제 어디서나",
+          "tip": "모바일 뱅킹의 핵심 장점"
+        },
+        {
+          "expression": "I can't even remember the last time",
+          "meaning": "마지막으로 언제 했는지 기억도 안 난다",
+          "tip": "거의 하지 않는 습관을 자연스럽게 강조"
+        },
+        {
+          "expression": "why go to a bank when I can do everything on my phone?",
+          "meaning": "휴대폰으로 다 할 수 있는데 왜 은행에 가겠어요?",
+          "tip": "기억하기 쉬운 재치 있는 문장"
+        }
+      ],
+      "script": "Well, these days, most people in Korea don't really go to physical banks very often.\n\nInstead, most people use mobile banking, and so do I.\n\nYou know, I do almost everything through mobile banking.\n\nI can check my balance, transfer money, pay my bills, and even manage my accounts on my smartphone.\n\nActually, I can't even remember the last time I went to a bank in person.\n\nMobile banking is really convenient because I can use it anytime and anywhere.\n\nI don't have to wait in line or worry about the bank's business hours.\n\nI mean, why go to a bank when I can do everything on my phone?\n\nSo, mobile banking is definitely my first choice.\n\nIt's quick, easy, and saves me a lot of time.",
+      "updated_at": "2026-08-29T10:23:26"
+    },
+    {
+      "id": "remote-aeaeeb940afd3438f42a",
+      "topic": "Bank",
+      "type": "습관",
+      "question": "What types of transactions usually take place at a bank? What kinds of responsibilities do the bank employees have? What things do clients request of the employees?",
+      "translation": "은행에서는 보통 어떤 거래가 이루어지고 은행 직원들은 어떤 일을 하나요? 고객들은 어떤 업무를 요청하나요?",
+      "main_point": "오프라인 은행은 거의 안 가서 직원 업무는 잘 모름 → 모바일 뱅킹으로 잔액·송금·공과금 처리 → 거래내역·신용카드 관리 → 빠르고 편해서 항상 모바일 뱅킹 이용",
+      "key_expressions": [
+        {
+          "expression": "I'm not really sure what bank employees do these days.",
+          "meaning": "요즘 은행 직원들이 정확히 무슨 일을 하는지 잘 모르겠어요",
+          "tip": "모르는 부분을 솔직하게 넘기는 전략"
+        },
+        {
+          "expression": "with just a few taps on my phone",
+          "meaning": "휴대폰을 몇 번 터치하는 것만으로",
+          "tip": "모바일 서비스의 편리함을 생생하게 표현"
+        },
+        {
+          "expression": "take care of everything",
+          "meaning": "모든 일을 처리하다",
+          "tip": "은행 업무를 포괄적으로 표현"
+        },
+        {
+          "expression": "right there on my phone",
+          "meaning": "바로 내 휴대폰 안에",
+          "tip": "모바일 뱅킹의 접근성을 강조"
+        },
+        {
+          "expression": "my first choice",
+          "meaning": "나의 첫 번째 선택",
+          "tip": "습관과 선호를 깔끔하게 마무리"
+        }
+      ],
+      "script": "Well, to be honest, I rarely go to a bank in person, so I'm not really sure what bank employees do these days.\n\nYou know, I do almost all of my banking through mobile banking.\n\nThere are so many things I can do with it.\n\nFor example, I can check my balance, transfer money, and pay my bills with just a few taps on my phone.\n\nI can also check my transaction history and manage my credit cards.\n\nActually, I use mobile banking almost every day.\n\nThe best thing is that I don't have to visit a bank or wait in line.\n\nI can take care of everything anytime and anywhere.\n\nI mean, everything I need is right there on my phone.\n\nSo, these days, whenever I need to do something related to banking, mobile banking is always my first choice.\n\nIt's simple, fast, and super convenient.",
+      "updated_at": "2026-08-29T10:23:26"
+    },
+    {
+      "id": "remote-e448d58cd088c7be504b",
+      "topic": "Bank",
+      "type": "과거 경험",
+      "question": "Have you ever experienced that you needed to find help to solve a problem? For example, has your credit card ever malfunctioned or have you ever lost your credit card? Tell me about a circumstance involving a bank account or credit card as vividly as possible.",
+      "translation": "은행 계좌나 신용카드 문제를 해결하기 위해 도움을 받아야 했던 경험을 가능한 생생하게 말해 주세요.",
+      "main_point": "아들에게 신용카드를 줌 → 준 사실을 잊고 결제 알림을 받아 도난으로 착각 → 고객센터에 전화 → 집 근처 편의점 결제라는 말을 듣고 기억남 → 안도하고 사과",
+      "key_expressions": [
+        {
+          "expression": "I totally forgot about it.",
+          "meaning": "그걸 완전히 잊고 있었다",
+          "tip": "실수의 원인을 자연스럽게 설명"
+        },
+        {
+          "expression": "started to panic",
+          "meaning": "당황하기 시작했다",
+          "tip": "문제 상황의 감정 흐름"
+        },
+        {
+          "expression": "it suddenly hit me",
+          "meaning": "갑자기 생각이 났다, 깨달았다",
+          "tip": "스토리 반전의 핵심 표현"
+        },
+        {
+          "expression": "I felt so relieved",
+          "meaning": "정말 안도했다",
+          "tip": "문제가 해결된 뒤 감정 표현"
+        },
+        {
+          "expression": "at least my card wasn't stolen",
+          "meaning": "적어도 카드를 도난당한 건 아니었다",
+          "tip": "가볍고 자연스러운 마무리"
+        }
+      ],
+      "script": "Oh, actually, I have a funny story about my credit card.\n\nA few months ago, I gave my credit card to my son because he wanted to buy something at a convenience store near my house.\n\nBut I totally forgot about it.\n\nA little later, I suddenly got a notification on my phone saying that my credit card had been used.\n\nI was really surprised and started to panic.\n\nI thought, \"Oh my gosh! Someone is using my credit card!\"\n\nSo, I immediately called the bank's customer service center and explained what had happened.\n\nThe employee checked the transaction and told me that my card had been used at a convenience store near my house.\n\nAnd then, it suddenly hit me.\n\nI remembered that I had given my credit card to my son!\n\nI felt so relieved, but at the same time, I was really embarrassed.\n\nI quickly said, \"Oh, I'm so sorry. I completely forgot that I gave my card to my son.\"\n\nLuckily, the employee was very understanding, so I apologized again and ended the call.\n\nWell, it was a little embarrassing, but at least my card wasn't stolen!",
+      "updated_at": "2026-08-29T10:23:26"
+    }
+  ]
+}

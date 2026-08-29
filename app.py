@@ -1,11 +1,123 @@
 
 import streamlit as st
-import json, uuid, re, html as html_lib
+import json, uuid, re, html as html_lib, hashlib, urllib.request, os, shutil
 from pathlib import Path
 from datetime import datetime
 
 DATA_FILE = Path(__file__).with_name("opic_data.json")
 TYPE_OPTIONS = ["묘사", "과거 경험", "습관", "비교", "롤플레잉", "14번~15번", "기타"]
+
+APP_VERSION = "2.3.0"
+DATA_SYNC_STATE_FILE = Path(__file__).with_name("data_sync_state.json")
+
+def stable_script_id(item):
+    key = "||".join([str(item.get("topic","")).strip(), str(item.get("type","")).strip(), str(item.get("question","")).strip()])
+    return "remote-" + hashlib.sha256(key.encode("utf-8")).hexdigest()[:20]
+
+def load_data_sync_state():
+    if not DATA_SYNC_STATE_FILE.exists():
+        return {"data_version": ""}
+    try:
+        return json.loads(DATA_SYNC_STATE_FILE.read_text(encoding="utf-8"))
+    except Exception:
+        return {"data_version": ""}
+
+def save_data_sync_state(version):
+    DATA_SYNC_STATE_FILE.write_text(json.dumps({"data_version": str(version)}, ensure_ascii=False, indent=2), encoding="utf-8")
+
+def sync_remote_data(manifest, local_data):
+    data_url = str(manifest.get("data_url", "")).strip()
+    if not data_url:
+        return local_data, 0, 0
+    remote_bytes = fetch_bytes_url(data_url)
+    expected = str(manifest.get("data_sha256", "")).strip().lower()
+    actual = hashlib.sha256(remote_bytes).hexdigest().lower()
+    if expected and expected != actual:
+        raise ValueError("온라인 학습 데이터의 SHA-256 값이 일치하지 않습니다.")
+    payload = json.loads(remote_bytes.decode("utf-8"))
+    remote_items = payload.get("scripts", payload) if isinstance(payload, dict) else payload
+    if not isinstance(remote_items, list):
+        raise ValueError("온라인 학습 데이터 형식이 올바르지 않습니다.")
+
+    existing = list(local_data)
+    key_to_index = {}
+    for i, item in enumerate(existing):
+        key = (str(item.get("topic","")).strip(), str(item.get("type","")).strip(), str(item.get("question","")).strip())
+        key_to_index[key] = i
+
+    added = updated = 0
+    for raw in remote_items:
+        item = normalize_item(raw)
+        item["id"] = stable_script_id(item)
+        key = (str(item.get("topic","")).strip(), str(item.get("type","")).strip(), str(item.get("question","")).strip())
+        if key in key_to_index:
+            old = existing[key_to_index[key]]
+            item["id"] = old.get("id") or item["id"]
+            existing[key_to_index[key]] = item
+            updated += 1
+        else:
+            key_to_index[key] = len(existing)
+            existing.append(item)
+            added += 1
+    return existing, added, updated
+
+CONFIG_FILE = Path(__file__).with_name("updater_config.json")
+
+def load_updater_config():
+    if not CONFIG_FILE.exists():
+        return {"manifest_url": ""}
+    try:
+        obj = json.loads(CONFIG_FILE.read_text(encoding="utf-8"))
+        return {"manifest_url": obj.get("manifest_url", "")}
+    except Exception:
+        return {"manifest_url": ""}
+
+def save_updater_config(url):
+    CONFIG_FILE.write_text(
+        json.dumps({"manifest_url": url.strip()}, ensure_ascii=False, indent=2),
+        encoding="utf-8"
+    )
+
+def version_tuple(v):
+    nums = re.findall(r"\d+", str(v))
+    return tuple(int(x) for x in nums[:4]) or (0,)
+
+def fetch_json_url(url, timeout=8):
+    req = urllib.request.Request(url, headers={"User-Agent": "OPIc-Study-Agent-Updater/1.0"})
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return json.loads(r.read().decode("utf-8"))
+
+def fetch_bytes_url(url, timeout=15):
+    req = urllib.request.Request(url, headers={"User-Agent": "OPIc-Study-Agent-Updater/1.0"})
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return r.read()
+
+def check_online_update(url):
+    manifest = fetch_json_url(url)
+    latest = str(manifest.get("version", "0"))
+    return version_tuple(latest) > version_tuple(APP_VERSION), manifest
+
+def install_online_update(manifest):
+    app_url = str(manifest.get("app_url", "")).strip()
+    if not app_url:
+        raise ValueError("manifest에 app_url이 없습니다.")
+
+    new_bytes = fetch_bytes_url(app_url)
+    expected = str(manifest.get("sha256", "")).strip().lower()
+    actual = hashlib.sha256(new_bytes).hexdigest().lower()
+    if expected and expected != actual:
+        raise ValueError("다운로드 파일의 SHA-256 값이 일치하지 않습니다.")
+
+    new_text = new_bytes.decode("utf-8")
+    compile(new_text, "app.py", "exec")
+
+    current = Path(__file__).resolve()
+    backup = current.with_name("app.py.bak")
+    temp = current.with_name("app.py.new")
+    shutil.copy2(current, backup)
+    temp.write_bytes(new_bytes)
+    os.replace(temp, current)
+    return backup
 
 def load_data():
     if not DATA_FILE.exists():
@@ -94,12 +206,51 @@ if "selected_id" not in st.session_state:
     st.session_state.selected_id = st.session_state.data[0]["id"] if st.session_state.data else None
 if "mode" not in st.session_state:
     st.session_state.mode = "home"
+if "updater_config" not in st.session_state:
+    st.session_state.updater_config = load_updater_config()
+if "update_manifest" not in st.session_state:
+    st.session_state.update_manifest = None
+if "update_available" not in st.session_state:
+    st.session_state.update_available = False
+if "update_checked" not in st.session_state:
+    st.session_state.update_checked = False
+if "data_sync_message" not in st.session_state:
+    st.session_state.data_sync_message = ""
 
 data = st.session_state.data
+
+if (not st.session_state.update_checked
+        and st.session_state.updater_config.get("manifest_url")):
+    try:
+        available, manifest = check_online_update(
+            st.session_state.updater_config["manifest_url"]
+        )
+        st.session_state.update_available = available
+        st.session_state.update_manifest = manifest
+    except Exception:
+        pass
+    st.session_state.update_checked = True
+
+# Automatic learning-data sync from GitHub.
+if st.session_state.update_manifest:
+    try:
+        mf = st.session_state.update_manifest
+        remote_ver = str(mf.get("data_version", "")).strip()
+        local_ver = str(load_data_sync_state().get("data_version", "")).strip()
+        if remote_ver and remote_ver != local_ver and mf.get("data_url"):
+            merged, added, updated = sync_remote_data(mf, st.session_state.data)
+            st.session_state.data = merged
+            data = merged
+            save_data(merged)
+            save_data_sync_state(remote_ver)
+            st.session_state.data_sync_message = f"학습 데이터 {remote_ver} 자동 동기화 완료 · 신규 {added}개 / 갱신 {updated}개"
+    except Exception as e:
+        st.session_state.data_sync_message = f"학습 데이터 자동 동기화 실패: {e}"
 
 with st.sidebar:
     st.title("🎙️ OPIc Agent")
     st.caption("개인용 로컬 학습 도구")
+    st.caption(f"버전 {APP_VERSION} · {Path(__file__).resolve()}")
     st.divider()
 
     topics = ["전체"] + sorted(set(x["topic"] for x in data))
@@ -168,6 +319,62 @@ with st.sidebar:
             st.markdown('<span class="ai-off">● API Key 미입력</span>', unsafe_allow_html=True)
         st.caption("AI 기능: 질문 해석 · Main Point · 중요 표현 자동 생성")
 
+    with st.expander("🌐 온라인 업데이트", expanded=False):
+        st.caption(f"현재 앱 버전: {APP_VERSION}")
+        manifest_url = st.text_input(
+            "업데이트 Manifest URL",
+            value=st.session_state.updater_config.get("manifest_url", ""),
+            placeholder="https://raw.githubusercontent.com/.../update_manifest.json"
+        )
+        col_u1, col_u2 = st.columns(2)
+        with col_u1:
+            if st.button("설정 저장", key="save_update_url", use_container_width=True):
+                save_updater_config(manifest_url)
+                st.session_state.updater_config = {"manifest_url": manifest_url.strip()}
+                st.success("업데이트 주소를 저장했습니다.")
+        with col_u2:
+            if st.button("업데이트 확인", key="check_update", use_container_width=True):
+                if not manifest_url.strip():
+                    st.warning("Manifest URL을 먼저 입력해 주세요.")
+                else:
+                    try:
+                        available, manifest = check_online_update(manifest_url.strip())
+                        st.session_state.update_manifest = manifest
+                        st.session_state.update_available = available
+                        st.session_state.update_checked = True
+                        if available:
+                            st.info(f"새 버전 {manifest.get('version')}이 있습니다.")
+                        else:
+                            st.success("현재 최신 버전입니다.")
+                    except Exception as e:
+                        st.error(f"업데이트 확인 실패: {e}")
+
+        if st.session_state.update_manifest and st.session_state.update_manifest.get("data_url"):
+            if st.button("📚 학습 데이터 동기화", key="sync_learning_data", use_container_width=True):
+                try:
+                    merged, added, updated = sync_remote_data(st.session_state.update_manifest, st.session_state.data)
+                    st.session_state.data = merged
+                    save_data(merged)
+                    dv = str(st.session_state.update_manifest.get("data_version", ""))
+                    save_data_sync_state(dv)
+                    st.success(f"동기화 완료 · 신규 {added}개 / 갱신 {updated}개")
+                    st.rerun()
+                except Exception as e:
+                    st.error(f"학습 데이터 동기화 실패: {e}")
+
+        if st.session_state.update_available and st.session_state.update_manifest:
+            mf = st.session_state.update_manifest
+            st.markdown(f"**새 버전:** {mf.get('version', '')}")
+            if mf.get("notes"):
+                st.caption(str(mf.get("notes")))
+            if st.button("⬇️ 업데이트 설치", key="install_update", type="primary", use_container_width=True):
+                try:
+                    backup = install_online_update(mf)
+                    st.success("업데이트 설치 완료. Agent를 재시작해 주세요.")
+                    st.caption(f"기존 app.py는 {backup.name}으로 백업했습니다.")
+                except Exception as e:
+                    st.error(f"업데이트 설치 실패: {e}")
+
     with st.expander("💾 백업 / 가져오기"):
         export_obj = {"version": 1, "scripts": data}
         st.download_button(
@@ -197,6 +404,11 @@ with st.sidebar:
 if st.session_state.mode == "home":
     st.title("🏠 OPIc Study Agent")
     st.caption("전체 스크립트를 한눈에 보고 원하는 주제로 바로 이동하세요.")
+    if st.session_state.update_available and st.session_state.update_manifest:
+        latest_v = st.session_state.update_manifest.get("version", "")
+        st.info(f"🌐 새 업데이트 {latest_v}이 있습니다. 왼쪽 '온라인 업데이트'에서 설치할 수 있습니다.")
+    if st.session_state.data_sync_message:
+        st.success(st.session_state.data_sync_message)
 
     total_scripts = len(data)
     topic_counts = {}

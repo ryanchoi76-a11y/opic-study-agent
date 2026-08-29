@@ -1,6 +1,9 @@
 {
-  "version": "2.2.1",
+  "version": "2.3.0",
   "app_url": "https://raw.githubusercontent.com/ryanchoi76-a11y/opic-study-agent/main/app.py",
-  "sha256": "2c82a40f088d2b93e4eb40e55a6a98012ccbee648112af78e81b48ff2e8c59e9",
-  "notes": "메인 화면과 온라인 자동 업데이트 기능 추가"
+  "sha256": "a8852b1acf6e8d38dc081b48e9696f97f8c769ebc98b5ad65f509ad9e4bd1a28",
+  "notes": "GitHub 학습 데이터 자동 동기화 기능 추가",
+  "data_version": "2026.08.29.1",
+  "data_url": "https://raw.githubusercontent.com/ryanchoi76-a11y/opic-study-agent/main/opic_agent_data.json",
+  "data_sha256": "03c959f8b818b1fb2f27a31ce2db6dca011fbb6abf2b886590ec9378520e86f4"
 }
